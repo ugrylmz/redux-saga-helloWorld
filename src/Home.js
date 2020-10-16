@@ -13,7 +13,7 @@ class Home extends React.Component {
             <h1> {x.gender} </h1>
             <h1> {x.name.first} </h1>
             <h1> {x.name.last} </h1>
-            <img src={x.picture.medium} />
+            <img src={x.picture.large} />
         </div>
     )
 
